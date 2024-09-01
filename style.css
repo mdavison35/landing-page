@@ -127,3 +127,38 @@ button {
   font-size: 18px;
   font-weight: 700;
 }
+
+.content-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 820px;
+  height: 150px;
+  background-color: #3882f6;
+  padding: 0 32px;
+  border-radius: 8px;
+}
+
+.sign-up-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: 700px;
+}
+
+.border-button {
+  border: 2px solid white;
+  border-radius: 8px;
+}
+
+.sign-up-text > p {
+  font-size: 14px;
+}
