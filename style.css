@@ -5,6 +5,10 @@ body {
   margin: 0;
 }
 
+p {
+  margin: 0;
+}
+
 button {
   background-color: #3882f6;
   width: 100px;
@@ -97,4 +101,29 @@ button {
 .img-holder {
   display: flex;
   gap: 32px;
+}
+
+.content-3 {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  width: 820px;
+  font-size: 36px;
+  color: #717c8b;
+  font-weight: lighter;
+  display: flex;
+  align-items: center;
+}
+
+.attribution {
+  text-align: right;
+  width: 750px;
+  color: #1f2937;
+  font-size: 18px;
+  font-weight: 700;
 }
