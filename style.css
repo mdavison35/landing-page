@@ -65,3 +65,36 @@ button {
   height: 240px;
   width: 480px;
 }
+
+.content-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.img-card {
+  width: 130px;
+  height: 130px;
+  border: 3px solid rgb(76, 110, 221);
+  border-radius: 8px;
+}
+
+.subtext {
+  width: 130px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 400;
+  color: #1f2937;
+}
+
+.img-holder {
+  display: flex;
+  gap: 32px;
+}
