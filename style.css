@@ -1,0 +1,27 @@
+body {
+  font-family: Roboto, serif;
+}
+
+.header {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 192px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.header-links {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 16px;
+}
+
+.hero-secondary {
+  font-size: 18px;
+  color: #e5e7eb;
+}
